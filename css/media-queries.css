@@ -1,0 +1,45 @@
+@media screen and (min-width: 480px) {
+  .cards-wrapper {
+    text-align: center;
+  }
+
+  .card {
+    margin: 10px;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .profile-card {
+    padding: 40px;
+  }
+
+  .footer-card {
+    max-width: 450px;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 30%;
+  }
+
+  .client-list-wrapper img {
+    padding: 15px;
+  }
+
+  .profile-card {
+    padding: 12px;
+  }
+
+  .footer-card {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .profile-card {
+    padding: 30px;
+  }
+}
