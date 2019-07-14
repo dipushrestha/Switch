@@ -137,8 +137,8 @@
 }
 
 .card {
-  text-align: center;
   margin: 50px;
+  text-align: center;
   color: #828181;
 }
 
@@ -202,6 +202,10 @@
 .btn-group .btn-group-item:hover {
   color: #ffffff;
   background-color: #2b9b2b;
+}
+
+.btn-group .btn-group-item:focus {
+  outline: none;
 }
 
 .btn-group-item.active {
@@ -436,6 +440,10 @@
   background-color: #2b9b2b;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+.footer-card-content p {
+  font-size: 14px;
 }
 
 .footer-bottom-wrapper {
