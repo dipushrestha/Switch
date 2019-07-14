@@ -28,15 +28,25 @@
   color: #ffffff;
 }
 
-.nav-wrapper ul li:not(:last-child) {
+.nav-wrapper ul li a:hover {
+  border-bottom: 2px solid #54d154;
+}
+
+.nav-wrapper ul li:not(:first-child) {
   display: none;
 }
 
-.nav-wrapper ul li:last-child {
+.nav-wrapper ul li:first-child {
   padding: 15px 15px;
   background-image: url(../images/burger-menu.png);
   background-size: 40px;
   background-position: center;
+}
+
+.nav-wrapper ul:hover li {
+  padding: 5px 15px;
+  display: block;
+  background-repeat: no-repeat;
 }
 
 .search-wrapper input {
@@ -226,13 +236,11 @@
 
 .testimonial-image {
   float: left;
-  /* display: inline-block; */
 }
 
 .testimonial-name {
   float: left;
   margin-left: 5px;
-  /* display: inline-block; */
   text-align: left;
 }
 
