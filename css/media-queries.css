@@ -59,6 +59,10 @@
     width: 30%;
   }
 
+  .testimonial-card {
+    padding: 0 45px;
+  }
+
   .client-list-wrapper img {
     padding: 20px;
   }
@@ -110,6 +114,10 @@
     max-width: 970px;
   }
 
+  .testimonial-card {
+    padding: 0 60px;
+  }
+
   .client-list-wrapper {
     margin: 0 auto;
     max-width: 992px;
@@ -150,6 +158,10 @@
 }
 
 @media screen and (min-width: 1032px) {
+  .testimonial-card {
+    padding: 0 90px;
+  }
+
   .footer-top-wrapper {
     max-width: 1040px;
   }
