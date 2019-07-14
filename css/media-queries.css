@@ -1,4 +1,20 @@
+@media screen and (min-width: 370px) {
+  .search-wrapper {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .search-wrapper {
+    width: 150px;
+  }
+}
+
 @media screen and (min-width: 480px) {
+  .search-wrapper {
+    width: 177px;
+  }
+
   .cards-wrapper {
     text-align: center;
   }

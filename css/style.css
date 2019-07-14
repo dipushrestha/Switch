@@ -44,7 +44,7 @@
 }
 
 .nav-wrapper ul:hover li {
-  padding: 5px 15px;
+  padding: 4px 8px;
   display: block;
   background-repeat: no-repeat;
 }
