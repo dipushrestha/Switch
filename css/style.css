@@ -11,6 +11,7 @@
 
 .btn {
   display: inline-block;
+  cursor: pointer;
   padding: 12px 22px;
   font-weight: 300;
   border-radius: 200px;
@@ -177,6 +178,10 @@
   background-color: #54d154;
 }
 
+.card a:hover {
+  background-color: #4abe4a;
+}
+
 .section-title-box-wrapper.green .section-title h2 {
   color: #2b9b2b;
   background: url(../images/section-line-green.png) no-repeat;
@@ -254,6 +259,7 @@
 
 .btn-group .btn-group-item {
   float: left;
+  cursor: pointer;
   color: #2b9b2b;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -311,6 +317,10 @@
   background-color: #2b9b2b;
 }
 
+.work-button-wrapper a:hover {
+  background-color: #4abe4a;
+}
+
 .client-list-wrapper {
   text-align: center;
   padding: 0 5px 30px 5px;
@@ -330,6 +340,10 @@
   background: url(../images/right-arrow-grey.png) no-repeat;
   background-position: right 18px center;
   background-color: #dddcdc;
+}
+
+.client-button-wrapper a:hover {
+  background-color: #ffffff;
 }
 
 .profiles-wrapper {
@@ -397,6 +411,10 @@
   color: #ffffff;
   background-color: #54d154;
   box-shadow: 0 5px #38a838;
+}
+
+.team-button-wrapper a:hover {
+  background-color: #4abe4a;
 }
 
 .footer-top-wrapper {
@@ -502,11 +520,16 @@
 }
 
 .contact-form input:last-child {
+  cursor: pointer;
   font-size: 14px;
   color: #ffffff;
   background-color: #2b9b2b;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+
+.contact-form input:last-child:hover {
+  background-color: #38a838;
 }
 
 .footer-card-content p {
