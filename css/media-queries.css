@@ -19,15 +19,15 @@
     text-align: center;
   }
 
+  .profile-card {
+    padding: 20px 40px;
+  }
+
   .card {
     margin: 30px 10px;
     width: 40%;
     max-width: 280px;
     display: inline-block;
-  }
-
-  .profile-card {
-    padding: 40px;
   }
 
   .footer-card {
@@ -41,17 +41,36 @@
     margin-right: 25px;
   }
 
-  .nav-wrapper ul:hover li {
-    padding: 0;
+  .nav-wrapper {
+    margin: 0 30px;
   }
 
-  .nav-wrapper ul li:not(:first-child) {
+  .overlay {
+    width: auto;
+    padding: 0;
+    position: relative;
+    transition: none;
+    background-color: transparent;
+  }
+
+  .overlay #closebtn {
+    display: none;
+  }
+
+  .overlay a {
+    font-size: 16px;
+    transition: none;
+    padding: 10px 0 0 0;
+  }
+
+  .nav-wrapper ul li {
     display: inline-block;
     padding-right: 10px;
   }
 
   .nav-wrapper ul li a {
     padding-top: 10px;
+    color: #ffffff;
     display: inline-block;
   }
 
@@ -64,16 +83,12 @@
     border-top: 5px solid #54d154;
   }
 
-  .nav-wrapper ul li:first-child {
+  #burger-menu {
     display: none;
   }
 
   .logo-wrapper {
     margin-left: 10px;
-  }
-
-  .nav-wrapper {
-    margin: 0 30px;
   }
 
   .card {
@@ -86,10 +101,6 @@
 
   .client-list-wrapper img {
     padding: 20px;
-  }
-
-  .profile-card {
-    padding: 12px;
   }
 
   .footer-card {
@@ -149,7 +160,7 @@
   }
 
   .profile-card {
-    padding: 35px;
+    padding: 20px 35px;
   }
 
   .footer-top-wrapper {
@@ -211,6 +222,7 @@
   .footer-card:nth-child(2) {
     margin: 0 45px;
   }
+
   .footer-card:nth-child(3) {
     margin-left: 45px;
   }

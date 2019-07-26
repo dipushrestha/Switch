@@ -1,365 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media-queries.css">
-    <link rel="shortcut icon" href="images/switch-icon.png" type="image/x-icon">
-    <title>Switch</title>
-  </head>
-  <body>
-    <section class="whole-wrapper">
-      <header class="header-wrapper" id="#home">
-        <div class="header-top-wrapper clearfix">
-          <nav class="nav-wrapper">
-            <ul>
-              <li><a href="#burger-menu"></a></li>
-              <li><a class="active" href="#home">Home</a></li>
-              <li><a href="#whatwedo">What we do?</a></li>
-              <li><a href="#testimonial">Testimonial</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-            </ul>
-          </nav>
-          <div class="logo-wrapper">
-            <img src="images/switch.png" alt="Logo">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="shortcut icon" href="images/switch-icon.png" type="image/x-icon">
+  <title>Switch</title>
+</head>
+
+<body>
+  <section class="whole-wrapper">
+    <header class="header-wrapper" id="home">
+      <div class="header-top-wrapper clearfix">
+        <nav class="nav-wrapper">
+          <span id="burger-menu">&#9776;</span>
+          <ul id="overlay" class="overlay">
+            <li><a id="closebtn" href="#close">&times;</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#whatwedo">What we do?</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="logo-wrapper">
+          <img src="images/switch.png" alt="Logo">
+        </div>
+        <div class="search-wrapper">
+          <input type="search" placeholder="Search..." />
+        </div>
+      </div>
+      <div class="header-bottom-wrapper">
+        <div class="landing-box">
+          <h1>Art is Eternal Happiness</h1>
+          <a class="btn" href="#workwithus">WORK WITH US</a>
+        </div>
+        <a class="" href="#whatwedo">scroll down</a>
+      </div>
+    </header>
+    <main class="body-wrapper">
+      <section class="whatwedo-wrapper" id="whatwedo">
+        <div class="section-title-box-wrapper">
+          <div class="section-title">
+            <h2>WHAT WE DO</h2>
           </div>
-          <div class="search-wrapper">
-            <input type="search" placeholder="Search..." />
+          <div class="section-caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi explicabo dolorum.</p>
           </div>
         </div>
-        <div class="header-bottom-wrapper">
-          <div class="landing-box">
-            <h1>Art is Eternal Happiness</h1>
-            <a class="btn" href="#workwithus">WORK WITH US</a>
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/camera.png" alt="Camera Icon" />
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid impedit molestiae nulla autem quidem error
+              rerum reiciendis a eligendi? Hic.
+            </p>
+            <a class="btn small" href="#learn-more">Learn more</a>
           </div>
-          <a class="" href="#whatwedo">scroll down</a>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/meter.png" alt="Meter Icon" />
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid impedit molestiae nulla autem quidem error
+              rerum reiciendis a eligendi? Hic.
+            </p>
+            <a class="btn small" href="#learn-more">Learn more</a>
+          </div>
+          <div class="card">
+            <div class="image-wrapper">
+              <img src="images/bag.png" alt="Bag Icon" />
+            </div>
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid impedit molestiae nulla autem quidem error
+              rerum reiciendis a eligendi? Hic.
+            </p>
+            <a class="btn small" href="#learn-more">Learn more</a>
+          </div>
         </div>
-      </header>
-      <main class="body-wrapper">
-        <section class="whatwedo-wrapper" id="whatwedo">
-          <div class="section-title-box-wrapper">
-            <div class="section-title">
-              <h2>WHAT WE DO</h2>
-            </div>
-            <div class="section-caption">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi explicabo dolorum.</p>
+      </section>
+      <section class="work-wrapper">
+        <div class="section-title-box-wrapper green">
+          <div class="section-title">
+            <h2>OUR LATEST WORK</h2>
+          </div>
+          <div class="section-caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Error voluptatum totam aperiam!
+            </p>
+          </div>
+        </div>
+        <div class="work-content-wrapper">
+          <div class="toggle-menu-wrapper">
+            <div class="btn-group">
+              <button class="btn-group-item active">Photography</button>
+              <button class="btn-group-item">Design</button>
+              <button class="btn-group-item">Print</button>
             </div>
           </div>
-          <div class="cards-wrapper">
-            <div class="card">
-              <div class="image-wrapper">
-                <img src="images/camera.png" alt="Camera Icon" />
+          <div class="image-collection-wrapper">
+            <img src="images/everglades-trees.png" alt="Everglades Trees">
+            <img src="images/office-setup.png" alt="Office Setup">
+            <img src="images/food.png" alt="Food">
+            <img src="images/cat.png" alt="Cat">
+            <img src="images/code.png" alt="Coding">
+            <img src="images/office-setup-2.png" alt="Office Setup">
+            <img src="images/food-2.png" alt="Food Preparation">
+            <img src="images/nail.png" alt="Nail">
+            <img src="images/lady-bugs.png" alt="Lady Bugs">
+            <img src="images/veggies.png" alt="Veggies">
+          </div>
+          <div class="work-button-wrapper">
+            <a class="btn icon" href="#view-more">View more</a>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial-wrapper" id="testimonial">
+        <div class="section-title-box-wrapper">
+          <div class="section-title">
+            <h2>TESTIMONIALS</h2>
+          </div>
+          <div class="section-caption">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Non perspiciatis explicabo nisi.
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-content-wrapper">
+          <div class="testimonial-card">
+            <button class="arrow left"></button>
+            <button class="arrow right"></button>
+            <blockquote>
+              <q>Awalnya saya tidak mendirita penyakit apanun,
+                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                tidak menderita penyakit apanun!</q>
+            </blockquote>
+            <div class="testimonial-info clearfix">
+              <div class="testimonial-image">
+                <img src="images/herp.png" alt="Mr. Herp">
               </div>
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquid impedit molestiae nulla autem quidem error 
-                rerum reiciendis a eligendi? Hic.
-              </p>
-              <a class="btn small" href="#learn-more">Learn more</a>
+              <div class="testimonial-name">
+                <p>Mr. Herp</p>
+                <p>CEO of Meme, Inc.</p>
+              </div>
             </div>
-            <div class="card">
-              <div class="image-wrapper">
-                <img src="images/meter.png" alt="Meter Icon" />
+          </div>
+        </div>
+      </section>
+      <section class="clients-wrapper">
+        <div class="section-title-box-wrapper">
+          <div class="section-title">
+            <h2>OUR HAPPY CLIENT</h2>
+          </div>
+          <div class="section-caption">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur earum nisi ad.
+            </p>
+          </div>
+        </div>
+        <div class="client-content-wrapper">
+          <div class="client-list-wrapper">
+            <img src="images/google-logo.png" alt="Google Logo">
+            <img src="images/yahoo-logo.png" alt="Yahoo Logo">
+            <img src="images/microsoft-logo.png" alt="Microsoft Logo">
+            <img src="images/intel-logo.png" alt="Intel Logo">
+            <img src="images/qualcomm-logo.png" alt="Qualcomm Logo">
+            <img src="images/cisco-logo.png" alt="CISCO Logo">
+            <img src="images/apple-logo.png" alt="Apple Logo">
+            <img src="images/asus-logo.png" alt="Asus Logo">
+          </div>
+          <div class="client-button-wrapper">
+            <a class="btn icon" href="#see-all-client">See all client</a>
+          </div>
+        </div>
+      </section>
+      <section class="team-wrapper">
+        <div class="section-title-box-wrapper green">
+          <div class="section-title">
+            <h2>MEET THE TEAM</h2>
+          </div>
+          <div class="section-caption">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Nam, sed. Praesentium, sit!
+            </p>
+          </div>
+        </div>
+        <div class="team-content-wrapper">
+          <div class="profiles-wrapper">
+            <div class="profile-card">
+              <img src="images/krisna.png" alt="Krisna" />
+              <div class="profile-detail">
+                <h3>Krisna Wijaya</h3>
+                <div class="profile-icons">
+                  <a class="basket" href="#basket"></a>
+                  <a class="be" href="#be"></a>
+                  <a class="twitter" href="#twitter"></a>
+                </div>
               </div>
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid impedit molestiae nulla autem quidem error
-                rerum reiciendis a eligendi? Hic.
-              </p>
-              <a class="btn small" href="#learn-more">Learn more</a>
             </div>
-            <div class="card">
-              <div class="image-wrapper">
-                <img src="images/bag.png" alt="Bag Icon" />
+            <div class="profile-card">
+              <img src="images/gabriel.png" alt="Gabriel" />
+              <div class="profile-detail">
+                <h3>Gabriel Yoshua</h3>
+                <div class="profile-icons">
+                  <a class="basket" href="#basket"></a>
+                  <a class="be" href="#be"></a>
+                  <a class="twitter" href="#twitter"></a>
+                </div>
               </div>
-              <h3>Lorem Ipsum</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid impedit molestiae nulla autem quidem error
-                rerum reiciendis a eligendi? Hic.
-              </p>
-              <a class="btn small" href="#learn-more">Learn more</a>
+            </div>
+            <div class="profile-card">
+              <img src="images/adik.png" alt="Adik" />
+              <div class="profile-detail">
+                <h3>Adik N.K.L</h3>
+                <div class="profile-icons">
+                  <a class="basket" href="#basket"></a>
+                  <a class="be" href="#be"></a>
+                  <a class="twitter" href="#twitter"></a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card">
+              <img src="images/zan.png" alt="Zan" />
+              <div class="profile-detail">
+                <h3>Zan D.J</h3>
+                <div class="profile-icons">
+                  <a class="basket" href="#basket"></a>
+                  <a class="be" href="#be"></a>
+                  <a class="twitter" href="#twitter"></a>
+                </div>
+              </div>
+            </div>
+            <div class="profile-card">
+              <img src="images/faizal.png" alt="Faizal" />
+              <div class="profile-detail">
+                <h3>Faizal Febri</h3>
+                <div class="profile-icons">
+                  <a class="basket" href="#basket"></a>
+                  <a class="be" href="#be"></a>
+                  <a class="twitter" href="#twitter"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team-button-wrapper">
+            <a href="#work-with-us" class="btn">WORK WITH US</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-wrapper">
+      <section class="footer-top-wrapper clearfix">
+        <section class="footer-card">
+          <div class="section-title footer">
+            <h2>ABOUT US</h2>
+          </div>
+          <div class="footer-card-content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quam praesentium maxime molestiae aperiam ad, reprehenderit
+              mollitia? Aut quae, ipsa error explicabo assumenda iusto
+              consequatur eius harum amet laborum? Vel laudantium sapiente
+              animi? Quasi voluptatum laborum temporibus, animi magni facilis
+              autem exercitationem quisquam consequatur laudantium tenetur,
+              a dolorem vel, porro soluta ea maxime asperiores? Perspiciatis
+              ea obcaecati qui eos dolorem consequatur deleniti non distinctio
+              iusto perferendis error corrupti repellat aut, rerum eum, minus
+              ex?
+            </p>
+            <div class="profile-icons about">
+              <a class="basket" href="#basket"></a>
+              <a class="facebook" href="#facebook"></a>
+              <a class="twitter" href="#twitter"></a>
             </div>
           </div>
         </section>
-        <section class="work-wrapper">
-          <div class="section-title-box-wrapper green">
-            <div class="section-title">
-              <h2>OUR LATEST WORK</h2>
-            </div>
-            <div class="section-caption">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Error voluptatum totam aperiam!
-              </p>
-            </div>
+        <section class="footer-card">
+          <div class="section-title footer">
+            <h2>RECENT POSTS</h2>
           </div>
-          <div class="work-content-wrapper">
-            <div class="toggle-menu-wrapper">
-              <div class="btn-group">
-                <button class="btn-group-item active">Photography</button>
-                <button class="btn-group-item">Design</button>
-                <button class="btn-group-item">Print</button>
-              </div>
-            </div>
-            <div class="image-collection-wrapper">
-              <img src="images/everglades-trees.png" alt="Everglades Trees">
-              <img src="images/office-setup.png" alt="Office Setup">
-              <img src="images/food.png" alt="Food">
-              <img src="images/cat.png" alt="Cat">
-              <img src="images/code.png" alt="Coding">
+          <ul class="post-feed">
+            <li class="post clearfix">
               <img src="images/office-setup-2.png" alt="Office Setup">
+              <div class="post-content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="green" href="#magazine">MAGAZINE</a>
+              </div>
+            </li>
+            <li class="post clearfix">
               <img src="images/food-2.png" alt="Food Preparation">
+              <div class="post-content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="yellow" href="#ui-design">UI DESIGN</a>
+              </div>
+            </li>
+            <li class="post clearfix">
               <img src="images/nail.png" alt="Nail">
-              <img src="images/lady-bugs.png" alt="Lady Bugs">
+              <div class="post-content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="blue" href="#photography">PHOTOGRAPHY</a>
+              </div>
+            </li>
+            <li class="post clearfix">
               <img src="images/veggies.png" alt="Veggies">
-            </div>
-            <div class="work-button-wrapper">
-              <a class="btn icon" href="#view-more">View more</a>
-            </div>
+              <div class="post-content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="red" href="#book">BOOK</a>
+              </div>
+            </li>
+            <li class="post clearfix">
+              <img src="images/lady-bugs.png" alt="Lady Bugs">
+              <div class="post-content">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="yellow" href="#ui-design">UI DESIGN</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-card" id="contact">
+          <div class="section-title footer">
+            <h2>CONTACT US</h2>
+          </div>
+          <div class="footer-card-content">
+            <address>
+              10044 West 23th Street, Suite 721 <br>
+              New York NY 10010 <br>
+              Email:Username@email.com <br>
+              Phone: +1 &#x28;0&#x29; 123 4567 890 <br>
+              Fax: +1 &#x28;0&#x29; 321 4567 890
+            </address>
+            <form class="contact-form">
+              <input type="text" name="name" placeholder="Your Name..">
+              <input type="email" name="email" placeholder="Your Email">
+              <textarea name="message" rows="7" placeholder="Your Message.."></textarea>
+              <input type="submit" value="SEND">
+            </form>
           </div>
         </section>
-        <section class="testimonial-wrapper" id="testimonial">
-          <div class="section-title-box-wrapper">
-            <div class="section-title">
-              <h2>TESTIMONIALS</h2>
-            </div>
-            <div class="section-caption">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Non perspiciatis explicabo nisi.
-              </p>
-            </div>
-          </div>
-          <div class="testimonial-content-wrapper">
-            <div class="testimonial-card">
-              <button class="arrow left"></button>
-              <button class="arrow right"></button>
-              <blockquote>
-                <q>Awalnya saya tidak mendirita penyakit apanun,
-                  namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                  tidak menderita penyakit apanun!</q>
-              </blockquote>
-              <div class="testimonial-info clearfix">
-                <div class="testimonial-image">
-                  <img src="images/herp.png" alt="Mr. Herp">
-                </div>
-                <div class="testimonial-name">
-                  <p>Mr. Herp</p>
-                  <p>CEO of Meme, Inc.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="clients-wrapper">
-          <div class="section-title-box-wrapper">
-            <div class="section-title">
-              <h2>OUR HAPPY CLIENT</h2>
-            </div>
-            <div class="section-caption">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur earum nisi ad.
-              </p>
-            </div>
-          </div>
-          <div class="client-content-wrapper">
-            <div class="client-list-wrapper">
-              <img src="images/google-logo.png" alt="Google Logo">
-              <img src="images/yahoo-logo.png" alt="Yahoo Logo">
-              <img src="images/microsoft-logo.png" alt="Microsoft Logo">
-              <img src="images/intel-logo.png" alt="Intel Logo">
-              <img src="images/qualcomm-logo.png" alt="Qualcomm Logo">
-              <img src="images/cisco-logo.png" alt="CISCO Logo">
-              <img src="images/apple-logo.png" alt="Apple Logo">
-              <img src="images/asus-logo.png" alt="Asus Logo">
-            </div>
-            <div class="client-button-wrapper">
-              <a class="btn icon" href="#see-all-client">See all client</a>
-            </div>
-          </div>
-        </section>
-        <section class="team-wrapper">
-          <div class="section-title-box-wrapper green">
-            <div class="section-title">
-              <h2>MEET THE TEAM</h2>
-            </div>
-            <div class="section-caption">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nam, sed. Praesentium, sit!
-              </p>
-            </div>
-          </div>
-          <div class="team-content-wrapper">
-            <div class="profiles-wrapper">
-              <div class="profile-card">
-                <img src="images/krisna.png" alt="Krisna" />
-                <div class="profile-detail">
-                  <h3>Krisna Wijaya</h3>
-                  <div class="profile-icons">
-                    <a class="basket" href="#basket"></a>
-                    <a class="be" href="#be"></a>
-                    <a class="twitter" href="#twitter"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="profile-card">
-                <img src="images/gabriel.png" alt="Gabriel" />
-                <div class="profile-detail">
-                  <h3>Gabriel Yoshua</h3>
-                  <div class="profile-icons">
-                    <a class="basket" href="#basket"></a>
-                    <a class="be" href="#be"></a>
-                    <a class="twitter" href="#twitter"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="profile-card">
-                <img src="images/adik.png" alt="Adik" />
-                <div class="profile-detail">
-                  <h3>Adik N.K.L</h3>
-                  <div class="profile-icons">
-                    <a class="basket" href="#basket"></a>
-                    <a class="be" href="#be"></a>
-                    <a class="twitter" href="#twitter"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="profile-card">
-                <img src="images/zan.png" alt="Zan" />
-                <div class="profile-detail">
-                  <h3>Zan D.J</h3>
-                  <div class="profile-icons">
-                    <a class="basket" href="#basket"></a>
-                    <a class="be" href="#be"></a>
-                    <a class="twitter" href="#twitter"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="profile-card">
-                <img src="images/faizal.png" alt="Faizal" />
-                <div class="profile-detail">
-                  <h3>Faizal Febri</h3>
-                  <div class="profile-icons">
-                    <a class="basket" href="#basket"></a>
-                    <a class="be" href="#be"></a>
-                    <a class="twitter" href="#twitter"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="team-button-wrapper">
-              <a href="#work-with-us" class="btn">WORK WITH US</a>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer class="footer-wrapper">
-        <section class="footer-top-wrapper clearfix">
-          <section class="footer-card">
-            <div class="section-title footer">
-              <h2>ABOUT US</h2>
-            </div>
-            <div class="footer-card-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quam praesentium maxime molestiae aperiam ad, reprehenderit
-                mollitia? Aut quae, ipsa error explicabo assumenda iusto
-                consequatur eius harum amet laborum? Vel laudantium sapiente 
-                animi? Quasi voluptatum laborum temporibus, animi magni facilis
-                autem exercitationem quisquam consequatur laudantium tenetur,
-                a dolorem vel, porro soluta ea maxime asperiores? Perspiciatis 
-                ea obcaecati qui eos dolorem consequatur deleniti non distinctio 
-                iusto perferendis error corrupti repellat aut, rerum eum, minus
-                ex?
-              </p>
-              <div class="profile-icons about">
-                <a class="basket" href="#basket"></a>
-                <a class="facebook" href="#facebook"></a>
-                <a class="twitter" href="#twitter"></a>
-              </div>
-            </div>
-          </section>
-          <section class="footer-card">
-            <div class="section-title footer">
-              <h2>RECENT POSTS</h2>
-            </div>
-            <ul class="post-feed">
-              <li class="post clearfix">
-                <img src="images/office-setup-2.png" alt="Office Setup">
-                <div class="post-content">
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                  <a class="green" href="#magazine">MAGAZINE</a>
-                </div>
-              </li>
-              <li class="post clearfix">
-                <img src="images/food-2.png" alt="Food Preparation">
-                <div class="post-content">
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                  <a class="yellow" href="#ui-design">UI DESIGN</a>
-                </div>
-              </li>
-              <li class="post clearfix">
-                <img src="images/nail.png" alt="Nail">
-                <div class="post-content">
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                  <a class="blue" href="#photography">PHOTOGRAPHY</a>
-                </div>
-              </li>
-              <li class="post clearfix">
-                <img src="images/veggies.png" alt="Veggies">
-                <div class="post-content">
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                  <a class="red" href="#book">BOOK</a>
-                </div>
-              </li>
-              <li class="post clearfix">
-                <img src="images/lady-bugs.png" alt="Lady Bugs">
-                <div class="post-content">
-                  <h2>Lorem ipsum dolor sit amet.</h2>
-                  <a class="yellow" href="#ui-design">UI DESIGN</a>
-                </div>
-              </li>
-            </ul>
-          </section>
-          <section class="footer-card" id="contact">
-            <div class="section-title footer">
-              <h2>CONTACT US</h2>
-            </div>
-            <div class="footer-card-content">
-              <address>
-                10044 West 23th Street, Suite 721 <br>
-                New York NY 10010 <br>
-                Email:Username@email.com <br>
-                Phone: +1 &#x28;0&#x29; 123 4567 890 <br>
-                Fax: +1 &#x28;0&#x29; 321 4567 890
-              </address>
-              <form class="contact-form">
-                <input type="text" name="name" placeholder="Your Name..">
-                <input type="email" name="email" placeholder="Your Email">
-                <textarea name="message" rows="7" placeholder="Your Message.."></textarea>
-                <input type="submit" value="SEND">
-              </form>
-            </div>
-          </section>
-        </section>
-        <section class="footer-bottom-wrapper">
-          <div class="section-title footer bottom">
-            <h2>AS SEEN ON</h2>
-          </div>
-          <div class="footer-logo-list">
-            <img src="images/cnn-logo.png" alt="CNN Logo">
-            <img src="images/techcrunch-logo.png" alt="Tech Crunch Logo">
-            <img src="images/bbc-logo.png" alt="BBC Logo">
-            <img src="images/nyt-logo.png" alt="New York Times Logo">
-          </div>
-        </section>
-      </footer>
-    </section>
-  </body>
+      </section>
+      <section class="footer-bottom-wrapper">
+        <div class="section-title footer bottom">
+          <h2>AS SEEN ON</h2>
+        </div>
+        <div class="footer-logo-list">
+          <img src="images/cnn-logo.png" alt="CNN Logo">
+          <img src="images/techcrunch-logo.png" alt="Tech Crunch Logo">
+          <img src="images/bbc-logo.png" alt="BBC Logo">
+          <img src="images/nyt-logo.png" alt="New York Times Logo">
+        </div>
+      </section>
+    </footer>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

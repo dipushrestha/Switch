@@ -25,29 +25,51 @@
   padding: 12px 40px 12px 18px;
 }
 
-.nav-wrapper ul li a {
+.nav-wrapper {
+  transition: 0.5s;
+}
+
+#burger-menu {
   color: #ffffff;
+  font-size: 21px;
+  cursor: pointer;
 }
 
-.nav-wrapper ul li a:hover {
-  border-bottom: 2px solid #54d154;
+.overlay {
+  text-align: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(1, 1, 1, 0.9);
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding-top: 50px;
+  transition: 0.5s;
 }
 
-.nav-wrapper ul li:not(:first-child) {
-  display: none;
-}
-
-.nav-wrapper ul li:first-child {
-  padding: 15px 15px;
-  background-image: url(../images/burger-menu.png);
-  background-size: 40px;
-  background-position: center;
-}
-
-.nav-wrapper ul:hover li {
-  padding: 4px 8px;
+.overlay a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
   display: block;
-  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.overlay a:hover {
+  color: #f1f1f1;
+}
+
+.overlay #closebtn {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 40px;
+  margin-left: 50px;
 }
 
 .search-wrapper input {
