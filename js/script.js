@@ -11,7 +11,7 @@ closeBtn.onclick = () => {
 }
 
 nav.onclick = e => {
-  if (e.target.tagName === 'A') {
+  if (e.target.tagName === 'A' && window.innerWidth < 768) {
     nav.style.width = '0';
   }
 }
